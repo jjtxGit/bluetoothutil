@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lv_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/bluetoothInfor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:text="你好吗 " />
+
+    <Button
+        android:id="@+id/connectBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接" />
+
+</LinearLayout>
